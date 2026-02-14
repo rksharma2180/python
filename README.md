@@ -85,7 +85,73 @@ Comprehensive coverage of Object-Oriented Programming concepts:
 - `class.md` - Classes as objects, metaclasses
 - `type_object_relationship.md` - `type` and `object` relationship
 
-### 10. HR Programs
+### 10. Iterators
+- Iterator protocol (`__iter__`, `__next__`)
+- Custom iterators
+- Iterable vs Iterator
+- Built-in iterators
+
+**Files:** `iterator.ipynb`, `iterators_explained.md`
+
+### 11. Generators
+- Generator functions (`yield`)
+- Generator expressions
+- Lazy evaluation
+- Memory-efficient data processing
+- Chaining generators
+
+**Files:** `generators.ipynb`, `generators_explained.md`
+
+### 12. Decorators
+- Function decorators
+- Class decorators
+- Closures (prerequisite concept)
+- `@wraps`, `@property`, `@staticmethod`, `@classmethod`
+- Decorator chaining
+- Real-world patterns
+
+**Files:** `decorator.ipynb`, `closures.md`, `decorators.md`
+
+### 13. NumPy
+Numerical computing with Python:
+- Array creation and manipulation
+- Indexing and slicing
+- Array operations (element-wise, broadcasting)
+- Shape manipulation (reshape, transpose)
+- Universal functions (ufuncs)
+- Linear algebra
+- Statistics
+- Random number generation
+- Advanced topics
+
+**Files:** `1.ipynb`, plus 10 detailed markdown guides (`1-introduction.md` through `10-advanced-topics.md`)
+
+### 14. Pandas
+Data manipulation and analysis:
+- Series and DataFrames
+- Data loading (CSV, JSON, HTML, Excel)
+- Indexing and selection (`loc`, `iloc`)
+- Data cleaning (handling missing values, duplicates)
+- Data transformation (rename, apply, map)
+- Grouping and aggregation
+- Merging and joining DataFrames
+- Time series analysis
+- Advanced topics
+
+**Files:** `1-Series.ipynb`, `2-DataFrames.ipynb`, `3-DataManipulation.ipynb`, `4-ReadData.ipynb`, plus 11 detailed markdown guides
+
+### 15. Logging
+Python logging framework:
+- Logging levels hierarchy (DEBUG → CRITICAL)
+- Formatters and date formats
+- Handlers (Console, File, Rotating)
+- Multiple loggers
+- Comprehensive comparison with Java logging (JUL, Log4j 2, SLF4J + Logback)
+- Enterprise logging best practices
+
+**Files:** `logging.ipynb`, `multilogger.ipynb`, `logging-levels.md`, `logs/logger.py`, `logs/test.py`
+
+### 16. HR Programs
 Common programming interview questions and solutions.
 
 ## 🎯 Learning Objectives
@@ -100,6 +166,11 @@ This repository demonstrates proficiency in:
 ✅ **Exception Handling** - Error management and custom exceptions  
 ✅ **File Operations** - Reading, writing, and processing files  
 ✅ **Standard Libraries** - Utilizing built-in Python modules  
+✅ **Iterators & Generators** - Lazy evaluation, memory-efficient processing  
+✅ **Decorators & Closures** - Function wrappers, metaprogramming  
+✅ **NumPy** - Numerical computing, arrays, linear algebra, statistics  
+✅ **Pandas** - DataFrames, data cleaning, transformation, analysis  
+✅ **Logging** - Logging levels, handlers, formatters, enterprise practices  
 
 ## 📖 Key Features
 
@@ -212,6 +283,9 @@ Then navigate to the desired `.ipynb` file in your browser.
 
 - **Python 3.x** - Primary programming language
 - **Jupyter Notebook** - Interactive development environment
+- **NumPy** - Numerical computing library
+- **Pandas** - Data manipulation and analysis library
+- **lxml & openpyxl** - HTML/XML and Excel file parsing
 - **Git** - Version control
 - **Virtual Environment** - Dependency management
 
@@ -251,9 +325,33 @@ python/
 ├── 6-StandardLibraries/
 ├── 7-FileOperations/
 ├── 8-ExceptionHandling/
-├── 9-ClassesAndObjects/
+├── 9-Oops/
 │   ├── *.ipynb (Jupyter notebooks)
 │   └── *.md (Documentation files)
+├── 10-Iterators/
+│   ├── iterator.ipynb
+│   └── iterators_explained.md
+├── 11-Generators/
+│   ├── generators.ipynb
+│   └── generators_explained.md
+├── 12-Decorators/
+│   ├── decorator.ipynb
+│   ├── closures.md
+│   └── decorators.md
+├── Numpy/
+│   ├── 1.ipynb
+│   ├── README.md
+│   └── *.md (10 topic guides)
+├── Pandas/
+│   ├── *.ipynb (4 notebooks)
+│   ├── README.md
+│   ├── *.md (11 topic guides)
+│   └── *.csv / *.xlsx (sample data)
+├── Logging/
+│   ├── logging.ipynb
+│   ├── multilogger.ipynb
+│   ├── logging-levels.md
+│   └── logs/ (logger scripts)
 ├── HR-Programs/
 ├── requirements.txt
 └── README.md
@@ -265,7 +363,11 @@ python/
 2. **Master Data Structures** - Learn to work with different data types
 3. **Functions and Modules** - Code organization and reusability
 4. **OOP Concepts** - Object-oriented programming principles
-5. **Advanced Topics** - Exception handling, file operations, magic methods
-6. **Practice** - Solve HR programming challenges
+5. **Advanced Python** - Iterators, generators, decorators, closures
+6. **Exception Handling & File Operations** - Error management, file I/O
+7. **Logging** - Application logging, handlers, formatters
+8. **NumPy** - Numerical computing, arrays, linear algebra
+9. **Pandas** - Data manipulation, cleaning, analysis
+10. **Practice** - Solve HR programming challenges
 
 Happy Learning! 🚀
